@@ -1,0 +1,4 @@
+{
+  "retention": "Demo policy: audit records are retained for 30 days.",
+  "access": "Demo policy: only the workspace owner can approve exports."
+}

@@ -1,0 +1,29 @@
+{
+  "mode": "scripted_demo_no_llm",
+  "status": "answered",
+  "answer": "The demo policy retains audit records for 30 days.",
+  "citations": [
+    {
+      "id": "retention",
+      "quote": "audit records are retained for 30 days.",
+      "sha256": "564bd07bad96053e84cdea2bf2287e03eee6013bbb48ae0952b4b85c5c66d244"
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "action": "search",
+      "status": "ok"
+    },
+    {
+      "step": 2,
+      "action": "read",
+      "status": "ok"
+    },
+    {
+      "step": 3,
+      "action": "finish",
+      "status": "accepted"
+    }
+  ]
+}
